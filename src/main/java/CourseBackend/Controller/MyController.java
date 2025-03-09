@@ -19,9 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import CourseBackend.Entities.Course;
 import CourseBackend.Services.CourseService;
 
-
-
-	@CrossOrigin(origins = "https://course-kumar.netlify.app")
+	@CrossOrigin(origins = "http://localhost:3000")
 	@RestController
 	public class MyController {
 
